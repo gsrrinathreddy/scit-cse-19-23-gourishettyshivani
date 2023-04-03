@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link} from 'react-router-dom';
 
-const pages= ['About Me', 'Qualification', 'Skills','Certifications', 'Experience','Hobbies',];
+const pages= ['About Me', 'Qualification', 'Skills','Certifications','Workshops','Projects', 'Experience','Hobbies','ContactMe'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -53,7 +53,7 @@ function Navbar() {
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
-              textDecoration: 'violet',
+              textDecoration: 'white',
             }}
           >
             GOURISHETTY SHIVANI
@@ -120,7 +120,7 @@ function Navbar() {
             <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'violet', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
               </Button>
